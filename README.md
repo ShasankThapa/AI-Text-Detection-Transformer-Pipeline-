@@ -58,15 +58,6 @@ Used for `task1-train.csv` (News Article Detection) and `task2-train.csv`
 - Access: Loaded automatically via 
   `datasets.load_dataset("ahmadreza13/human-vs-Ai-generated-dataset")`
 
-## Repo Structure
-
-AI-Text-Detection-Transformer-Pipeline/
-├── CLASSICAL-MODELS-AI-TEXT-DETECTION-PIPELINE.ipynb
-├── TRANSFORMERS-MODELS-AI-TEXT-DETECTION-PIPELINE.ipynb
-├── README.md
-├── LICENSE
-└── requirements.txt
-
 ## License
 
 This project's code is licensed under the MIT License — see LICENSE for details. 
