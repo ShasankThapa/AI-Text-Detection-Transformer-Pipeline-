@@ -34,23 +34,24 @@ experiments to assess robustness and calibration.
 - scikit-learn (classical models, TF-IDF)
 - Hugging Face Transformers & Datasets
 - pandas, numpy
-
 ## Datasets
 
-This project uses two data sources. Neither is redistributed in this 
-repository per their respective licensing terms — see below for access, 
+This project uses two data sources. Neither is redistributed in this
+repository per their respective licensing terms — see below for access,
 terms, and citation.
 
 ### 1. M-DAIGT Shared Task Dataset
-Used for `task1-train.csv` (News Article Detection) and `task2-train.csv` 
+Used for `task1-train.csv` (News Article Detection) and `task2-train.csv`
 (Academic Writing Detection).
 
 - Source: M-DAIGT (Multi-Domain Detection of AI-Generated Text) shared task
 - Paper: https://arxiv.org/abs/2511.11340v1
+- Citation: Lamsiyah, S. et al. (2025) 'M-DAIGT: A shared task on
+  multi-domain detection of AI-generated text', arXiv:2511.11340.
 - Copyright: M-DAIGT Organizers
-- Access: Available at the organizers' request/download link (see paper). 
-  Usage is restricted to academic research purposes; data may not be 
-  redistributed or re-published without organizer consent. This repository 
+- Access: Available at the organizers' request/download link (see paper).
+  Usage is restricted to academic research purposes; data may not be
+  redistributed or re-published without organizer consent. This repository
   contains only code, not the dataset itself, in compliance with these terms.
 
 ### 2. Human vs AI-Generated Text Dataset
