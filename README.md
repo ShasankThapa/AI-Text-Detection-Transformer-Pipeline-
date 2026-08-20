@@ -92,14 +92,15 @@ torch
 - **Codabench dataset**: not included in this repo due to size/licensing.
 
 ### 3. Run the notebooks
+
 ```bash
 jupyter notebook
-\`\`\`
+```
+
 - **`CLASSICAL-MODELS-AI-TEXT-DETECTION-PIPELINE.ipynb`** — classical models (Logistic Regression, LinearSVC). Runs on CPU in a few minutes.
-- **`TRANSFORMERS-MODELS-AI-TEXT-DETECTION-PIPELINE.ipynb`** — fine-tunes DistilBERT/DistilRoBERTa. **A GPU is strongly recommended** 
+- **`TRANSFORMERS-MODELS-AI-TEXT-DETECTION-PIPELINE.ipynb`** — fine-tunes DistilBERT/DistilRoBERTa. **A GPU is strongly recommended.**
 
 Run cells top to bottom — each notebook is organised sequentially (dataset loading → preprocessing → train/test splits → training → evaluation).
-```
 
 ## License
 
