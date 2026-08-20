@@ -78,7 +78,8 @@ source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-#### Create Requirements.txt & include
+#### `requirements.txt`
+```
 pandas
 numpy
 scikit-learn
@@ -86,6 +87,7 @@ scipy
 datasets
 transformers
 torch
+```
 
 ### 2. Get the datasets
 - **Hugging Face dataset**: downloads automatically when the notebook runs (requires internet access).
