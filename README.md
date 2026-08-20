@@ -60,12 +60,12 @@ Used for `task1-train.csv` (News Article Detection) and `task2-train.csv`
   `datasets.load_dataset("ahmadreza13/human-vs-Ai-generated-dataset")`
 
 ## Results
-
 Transformer models achieved near-perfect accuracy in-domain but degraded 
 significantly in cross-domain testing, in one case collapsing into 
 single-class prediction despite a misleadingly high F1-score. Classical 
 models scored lower overall but stayed more stable under domain shift. 
-Full results are available in the dissertation report.
+
+📄 Full results, methodology, and discussion are available in the [full report](AI-TEXT-DETECTION-REPORT.pdf).
 
 ## How to Run
 
