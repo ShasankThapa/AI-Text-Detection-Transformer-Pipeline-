@@ -70,13 +70,13 @@ Full results are available in the dissertation report.
 ## How to Run
 
 ### 1. Clone the repo and set up environment
-\`\`\`bash
+```bash
 git clone https://github.com/ShasankThapa/AI-Text-Detection-Transformer-Pipeline-.git
 cd AI-Text-Detection-Transformer-Pipeline
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-\`\`\`
+```
 
 #### Create Requirements.txt & include
 pandas
