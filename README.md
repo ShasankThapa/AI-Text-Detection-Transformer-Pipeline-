@@ -67,6 +67,39 @@ single-class prediction despite a misleadingly high F1-score. Classical
 models scored lower overall but stayed more stable under domain shift. 
 Full results are available in the dissertation report.
 
+## How to Run
+
+### 1. Clone the repo and set up environment
+\`\`\`bash
+git clone https://github.com/ShasankThapa/AI-Text-Detection-Transformer-Pipeline-.git
+cd AI-Text-Detection-Transformer-Pipeline
+python -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+\`\`\`
+
+#### Create Requirements.txt & include
+pandas
+numpy
+scikit-learn
+scipy
+datasets
+transformers
+torch
+
+### 2. Get the datasets
+- **Hugging Face dataset**: downloads automatically when the notebook runs (requires internet access).
+- **Codabench dataset**: not included in this repo due to size/licensing.
+
+### 3. Run the notebooks
+\`\`\`bash
+jupyter notebook
+\`\`\`
+- **`CLASSICAL-MODELS-AI-TEXT-DETECTION-PIPELINE.ipynb`** — classical models (Logistic Regression, LinearSVC). Runs on CPU in a few minutes.
+- **`TRANSFORMERS-MODELS-AI-TEXT-DETECTION-PIPELINE.ipynb`** — fine-tunes DistilBERT/DistilRoBERTa. **A GPU is strongly recommended** 
+
+Run cells top to bottom — each notebook is organised sequentially (dataset loading → preprocessing → train/test splits → training → evaluation).
+
 ## License
 
 This project's code is licensed under the MIT License — see LICENSE for details. 
